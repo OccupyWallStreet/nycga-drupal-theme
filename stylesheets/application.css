@@ -12,10 +12,58 @@
 /* Site header */
 #header {
   background: white url('../logo.png') no-repeat 2px;
-  padding-left: 400px;
+  clear: both;
+}
+#content, #header h1 {
+  float: left;
 }
 #header h1 {
   margin-top: 23px;
+  padding-left: 400px;
+}
+#quick-search {
+  clear: both;
+}
+#quick-search, #quick-search a {
+  color: #262626;
+}
+#sidebar {
+  clear: both;
+  float: right;
+}
+
+/* Main menu */
+#wrapper2 #main-menu, #wrapper2 #header, #wrapper2 > ul {
+  width: 97%;
+}
+#wrapper2 #main-menu {
+  clear: both;
+  float: left;
+  margin-right: 10px;
+  min-width: 860px;
+  position: relative;
+}
+#wrapper2 #header {
+  min-width: 900px;
+}
+#wrapper2 #main-menu > ul {
+  margin-left: -5px;
+  min-width: 870px;
+}
+#wrapper2 #main-menu ul li a {
+  padding-top: 2px;
+}
+#wrapper2 #main-menu ul li,
+#wrapper2 #main-menu ul li a,
+#wrapper2 #main-menu ul li a:hover,
+#wrapper2 #main-menu ul li a.selected,
+#wrapper2 #main-menu ul li a.selected:hover {
+  background-color: transparent;
+  border: 0;
+}
+#wrapper2 #main-menu ul li a:hover,
+#wrapper2 #main-menu ul li a.selected:hover {
+  color: #666;
 }
 
 /* Forms and boxes */
