@@ -3,6 +3,7 @@ description = Extends the Responsive HTML5 Boilerplate theme to resemble the NYC
 core        = 7.x
 engine      = phptemplate
 base theme  = html5_boilerplate
+screenshot  = logo.png
 
 stylesheets[all][]   = css/screen.css
 stylesheets[all][]   = css/occupy-screen.css
