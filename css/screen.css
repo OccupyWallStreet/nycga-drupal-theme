@@ -334,26 +334,45 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
   font-weight: bold;
 }
 
-/* Drupal main menu */
-#block-system-main-menu div > ul {
+/* Main menu */
+/* Drupal */ #block-system-main-menu div > ul,
+/* Redmine */ #wrapper2 .tabs > ul {
   background: #ffcc00;
   height: 18px;
   padding: 10px 15px 10px 15px;
   margin: 0;
 }
-#block-system-main-menu ul li a {
+/* Drupal */ #block-system-main-menu ul li a,
+/* Redmine */ #wrapper2 .tabs ul li a {
   color: #262626;
   font-size: 11px;
   font-weight:bold;
   padding: 0 15px;
   text-transform: uppercase;
 }
-#block-system-main-menu ul li a.active, #block-system-main-menu ul li a:active, #block-system-main-menu ul li a:hover {
+/* Drupal */ #block-system-main-menu ul li a.active, #block-system-main-menu ul li a:active, #block-system-main-menu ul li a:hover,
+/* Redmine */ #wrapper2 .tabs ul li a.selected, #wrapper2 .tabs ul li a:hover {
   color: white;
 }
-#block-system-main-menu ul li.first.leaf {
+/* Drupal */ #block-system-main-menu ul li.first.leaf {
   margin-left: 0;
   padding-left: 0;
+}
+/* Redmine */
+#wrapper2 #content .tabs ul li a {
+  padding-top: 6px;
+}
+#wrapper2 #content .tabs ul li,
+#wrapper2 #content .tabs ul li a,
+#wrapper2 #content .tabs ul li a:hover,
+#wrapper2 #content .tabs ul li a.selected,
+#wrapper2 #content .tabs ul li a.selected:hover {
+  background-color: transparent;
+  border: 0;
+}
+#wrapper2 #content .tabs ul li a:hover,
+#wrapper2 #content .tabs ul li a.selected:hover {
+  color: #666;
 }
 
 .the-gradient-just-below-the-yellow-menu, .hero {
