@@ -327,7 +327,8 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 #header-title-bar h1 {
   margin-bottom: 0;
 }
-#main-content h1, #main h2 {
+
+/* Page title: Drupal */ #main-content h1, /* Redmine */ #main h2 {
   color: #555;
   font-size: 20px;
   font-weight: bold;

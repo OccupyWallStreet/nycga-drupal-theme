@@ -5,6 +5,11 @@
 @import url('../css/screen.css');
 
 /* Redmine-only CSS */
+.theme-Nycga.theme {
+  /* not safe since this name is computed from the containing folder */
+}
+
+/* Site header */
 #header {
   background: white url('../logo.png') no-repeat 2px;
   padding-left: 400px;
@@ -13,6 +18,10 @@
   margin-top: 23px;
 }
 
-.theme-Nycga.theme {
-  /* not safe since this name is computed from the containing folder */
+/* Forms and boxes */
+.box, #login-form table{
+  border: 2px solid #ffcc00;
+}
+.box, #login-form table, #login-form td {
+  background-color:#FFEBC1;
 }
