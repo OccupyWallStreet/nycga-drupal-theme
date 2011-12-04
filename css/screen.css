@@ -272,28 +272,68 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
   margin-right: 0;
 }
 
+/* Redmine toolbar */
+.the-toolbar-at-the-very-top, #top-menu {
+	background: #eaeaea;
+	background: rgba(200, 200, 200, .9);
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 0;
+}
+#top-menu, #top-menu ul, #top-menu li {
+  height: 25px;
+}
+#top-menu ul {
+  padding-top: 0px;
+  padding-bottom: 2px;
+}
+#top-menu > ul > li, #top-menu > div > ul > li, #top-menu #loggedas {
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+#top-menu > div, #top-menu #loggedas {
+  float: left;
+}
+#top-menu #loggedas {
+  padding-left: 10px;
+}
+#top-menu li:hover {
+	background-color:#fff;
+}
+#top-menu a {
+  color: #666;
+  height: 19px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  padding-left: 8px;
+  padding-top: 0;
+}
+#top-menu a:hover {
+  color: #262626;
+  text-decoration: none;
+}
+
+/* Drupal header */
 #header-title-bar > * {
   float: left;
 }
-
 #header-title-bar > .region-header {
   float: right;
   margin-top: 19px;
 }
-
 #header-title-bar > hgroup { /* , #header-title-bar > hgroup h1, #header-title-bar > hgroup a { */
   margin-top: 23px;
 }
 #header-title-bar h1 {
   margin-bottom: 0;
 }
-
-#main-content h1 {
+#main-content h1, #main h2 {
   color: #555;
   font-size: 20px;
   font-weight: bold;
 }
 
+/* Drupal main menu */
 #block-system-main-menu div > ul {
   background: #ffcc00;
   height: 18px;
@@ -310,17 +350,12 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 #block-system-main-menu ul li a.active, #block-system-main-menu ul li a:active, #block-system-main-menu ul li a:hover {
   color: white;
 }
-
 #block-system-main-menu ul li.first.leaf {
   margin-left: 0;
   padding-left: 0;
 }
 
-.grid-24.hero {
-  width: 1230px;
-}
-
-.hero {
+.the-gradient-just-below-the-yellow-menu, .hero {
   background: #aaaaaa; /* Old browsers */
   background: -moz-linear-gradient(top,  #aaaaaa 0%, #dddddd 20%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aaaaaa), color-stop(20%,#dddddd)); /* Chrome,Safari4+ */
@@ -335,10 +370,14 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
   padding: 15px 15px 0 15px;
   text-shadow: 1px 1px 0 #EEE;
 }
+.grid-24.hero {
+  width: 1230px;
+}
 .hero h2 {
   display: none;
 }
 
+/* Drupal block titles */
 nav > h2, section > h2 {
   font-size: 12px;
   font-weight: bold;
@@ -350,6 +389,7 @@ nav > h2, section > h2 {
   background:#fff;
 }
 
+/* Drupal main content area */
 #main-wrapper {
   margin-top: 15px;
 }
@@ -361,6 +401,7 @@ nav > h2, section > h2 {
   */
 }
 
+/* Drupal calendar */
 .calendar-calendar .month-view .full tr td.today, 
 .calendar-calendar .month-view .full tr.odd td.today, 
 .calendar-calendar .month-view .full tr.even td.today,
@@ -376,6 +417,7 @@ nav > h2, section > h2 {
   padding-right: 5px;
 }
 
+/* Drupal regions */
 .region-sidebar-second {
   margin-left: 10px;
 }
@@ -391,6 +433,7 @@ nav > h2, section > h2 {
   padding-bottom: 1.5em;
 }
 
+/* NYCGA button styles */
 button,
 a.button,
 input[type=submit],
@@ -420,3 +463,4 @@ div.generic-button a,
 	text-decoration: none;
 	line-height: 14px;
 }
+

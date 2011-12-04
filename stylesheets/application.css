@@ -1,0 +1,14 @@
+@import url('../../../stylesheets/application.css');
+@import url('../css/screen.css');
+
+#header {
+  background: white url('../logo.png') no-repeat 2px;
+  padding-left: 400px;
+}
+#header h1 {
+  margin-top: 23px;
+}
+
+.theme-Nycga.theme {
+  
+}
