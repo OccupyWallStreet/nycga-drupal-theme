@@ -5,12 +5,13 @@ engine      = phptemplate
 base theme  = html5_boilerplate
 screenshot  = logo.png
 
+stylesheets[all][]   = css/adaptive-grid.css
 stylesheets[all][]   = css/screen.css
 stylesheets[all][]   = css/occupy-screen.css
 stylesheets[print][] = css/print.css
 
-regions[sidebar_first]  = Sidebar first
 regions[sidebar_second] = Sidebar second
+;regions[sidebar_bottom] = Sidebar bottom
 regions[content]        = Main Content
 regions[header]         = Header
 regions[menu_bar]       = Menu Bar

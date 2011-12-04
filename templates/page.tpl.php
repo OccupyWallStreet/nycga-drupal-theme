@@ -8,7 +8,7 @@
    */
   ?>
   <header class="grid-24 clearfix" role="banner">
-
+    <div id="header-title-bar" class="clearfix">
     <?php if ($logo): ?>
       <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -38,8 +38,11 @@
           <h2><?php print $site_slogan; ?></h2>
         <?php endif; ?>
       </hgroup>
+      <?php print render($page['header']); ?>
+
     <?php endif; ?>
-    
+    </div>
+	
     <?php
     /**
      * Lets imagine a perfect world where Main menu and Secondary menu are
@@ -49,7 +52,6 @@
      * semantics at the block level.
      */
     ?>
-    <?php print render($page['header']); ?>
     <?php print render($page['menu_bar']); ?>
 
   </header>
@@ -60,7 +62,7 @@
    */
   ?>
   <?php if ($messages || $page['help'] || $page['highlighted'] || $breadcrumb): ?>
-    <div class="grid-24 clearfix">
+    <div class="grid-24 hero clearfix">
       <?php print $messages; ?>
       <?php print render($page['help']); ?>
 
@@ -82,6 +84,8 @@
    * remember <div> lost all its semantics in HTML5.
    */
   ?>
+  <div id="main-wrapper3">
+  <div id="main-wrapper2">
   <div id="main-wrapper" class="grid-24 clearfix">
  
     <?php if ($sidebar_first = render($page['sidebar_first'])): print $sidebar_first; endif; ?>
@@ -93,7 +97,7 @@
      * "main".
      */
     ?>  
-    <section id="main-content" class="<?php print $page['sidebar_second'] ? 'grid-12' : 'grid-18 last-col' ; ?>" role="main">
+    <section id="main-content" class="<?php print $page['sidebar_second'] ? 'grid-18' : 'grid-18 last-col' ; ?>" role="main">
 
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -116,6 +120,8 @@
 
     <?php if ($sidebar_second = render($page['sidebar_second'])): print $sidebar_second; endif; ?>
 
+  </div>
+  </div>
   </div>
 
   <?php
