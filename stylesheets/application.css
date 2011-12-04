@@ -1,6 +1,10 @@
+/* Base Redmine stylesheet */
 @import url('../../../stylesheets/application.css');
+
+/* Base NYCGA stylesheet */
 @import url('../css/screen.css');
 
+/* Redmine-only CSS */
 #header {
   background: white url('../logo.png') no-repeat 2px;
   padding-left: 400px;
@@ -10,5 +14,5 @@
 }
 
 .theme-Nycga.theme {
-  
+  /* not safe since this name is computed from the containing folder */
 }

@@ -1,3 +1,8 @@
 Design elements from https://github.com/FLOSolutions/Occupy.net
 
-Depends on Responsive HTML5 Boilerplate http://drupal.org/project/html5_boilerplate
+For Drupal 7:
+-Depends on Responsive HTML5 Boilerplate http://drupal.org/project/html5_boilerplate
+-Put all the files in a folder in the theme search path (e.g. sites/all/themes/nycga_theme)
+
+For Redmine:
+-Put all the files in a folder under public/themes (e.g. public/themes/nycga_theme)
