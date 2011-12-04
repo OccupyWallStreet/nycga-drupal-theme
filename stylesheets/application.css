@@ -33,7 +33,7 @@
 }
 
 /* Main menu */
-#wrapper2 #main-menu, #wrapper2 #header, #wrapper2 > ul {
+#wrapper2 #main-menu, #wrapper2 #header, #wrapper2 > ul, #main.nosidebar #content {
   width: 97%;
 }
 #wrapper2 #main-menu {
