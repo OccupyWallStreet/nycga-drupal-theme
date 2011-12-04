@@ -40,8 +40,8 @@ p {margin:0 0 1.5em;}
 p .left {margin:1.5em 1.5em 1.5em 0;padding:0;}
 .right {float:right !important;}
 p .right {margin:1.5em 0 1.5em 1.5em;padding:0;}
-a:focus, a:hover {color:#09f;}
-a {color:#335D99;text-decoration:underline;}
+a:focus, a:hover {color:#999;}
+a {color:#335D99;text-decoration:none;}
 blockquote {margin:1.5em;color:#666;font-style:italic;}
 strong, dfn {font-weight:bold;}
 em, dfn {font-style:italic;}
@@ -263,5 +263,3 @@ hr.space {background:#fff;color:#fff;visibility:hidden;}
 .clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
 .clearfix, .container {display:block;}
 .clear {clear:both;}
-
-h1 a {text-decoration:none;}
